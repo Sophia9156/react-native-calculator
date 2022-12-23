@@ -5,9 +5,9 @@ import { useCalculator } from "../hooks/useCalculator";
 
 const COLOR = {
   RESULT: '#4e4c51',
-  RESET: '#bc8300',
-  OPERATOR: '#a05240',
-  NUM: '#9c7e49',
+  RESET: '#c79f7d',
+  OPERATOR: '#d49688',
+  NUM: '#F2DCDC',
 };
 
 // Button type: 'reset' | 'operator' | 'num'
@@ -32,7 +32,7 @@ const Button = ({ text, onPress, flex, type, isSelected }) => {
       }} 
       onPress={onPress}
     >
-      <Text style={{ color: "white", fontSize: 25 }}>{text}</Text>
+      <Text style={{ color: "#4e4c51", fontSize: 25 }}>{text}</Text>
     </TouchableOpacity>
   )
 };

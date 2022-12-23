@@ -1,7 +1,12 @@
 {
   "expo": {
-    "name": "react-native-calculator",
-    "slug": "react-native-calculator",
+    "name": "단순한 계산기",
+    "slug": "simple-calculator",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +14,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F2DCDC"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,11 +28,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#F2DCDC"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5188f000-15db-41f8-8fef-2be218d78bab"
+      }
+    },
+    "owner": "suhyun9156"
   }
 }
